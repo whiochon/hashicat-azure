@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name     = "oli16253be"
-  location = "US Central"
+  location = "Central US"
 }
 
 module "network" {
